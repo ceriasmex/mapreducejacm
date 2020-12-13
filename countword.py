@@ -4,7 +4,7 @@ import sys
 
 for line in sys.stdin:
     line = line.strip()
-    print("Sera hola??")
-    if line == "Hola":
-        print ("no es hola")
+    words = line.spllit()
+    for words in words:
+        print  '%s \\t %s' % (word,1)
     
