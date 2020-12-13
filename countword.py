@@ -1,7 +1,7 @@
 #!/usr/bin/python 
 
-print("Hello World")
+import sys
 
-print("Second test")
-print("third line")
-
+for line in sys.stdin:
+    line = line.strip()
+    print(line)
