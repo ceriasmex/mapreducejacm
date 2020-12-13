@@ -4,7 +4,7 @@ import sys
 
 for line in sys.stdin:
     line = line.strip()
-    print("Por fin sin hola")
+    print("Sera hola??")
     if line == "Hola":
         print ("no es hola")
     
