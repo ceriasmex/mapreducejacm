@@ -4,7 +4,7 @@ import sys
 
 for line in sys.stdin:
     line = line.strip()
-    words = line.spllit()
+    words = line.split()
     for words in words:
-        print  '%s\t%s' % (word,1)
+        print ("Hola" +  words + "Count" + str(1))
         
